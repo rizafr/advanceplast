@@ -15,7 +15,6 @@
 			</ul>
 		</div>
 
-
 		<div class="col-md-12 fh5co-copyright text-center">
 			<p>&copy; <?= date('Y')?> by PT. Advance Stabilindo Industry All Rights Reserved.</p>
 		</div>
@@ -39,12 +38,6 @@
 
 <!-- MAIN JS -->
 <script src="<?php echo base_url().'theme/js/main.js'?>"></script>
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		$('#btncari').hide();
-	});
-</script>
 <script>
 	jQuery(document).ready(function($) {
 		$('.popup2').click(function(event) {
