@@ -1,11 +1,27 @@
 <footer id="fh5co-footer" role="contentinfo">
 	<div class="container">
-		<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-			<h3>About Us</h3>
-			<p>Advanceplast Company in PVC Heat Stabilizer and Plastic Masterbatch within ASIA with the commitment to increase asset of the company strategically</p>
+		<div class="col-md-4 col-xs-12">
+			<h3>PT. Advance Stabilindo Industry</h3>
+			<ul class="contact-info">
+				<li><i class="icon-map"></i>
+					Head Office &amp; Factory
+					MM2100 Industrial Town, Blok M-29
+					Jl. Sulawesi III, Cikarang Barat, Kabupaten Bekasi 17520
+				Jawa Barat, Indonesia</li>
+			</ul>
 		</div>
 
-		<div class="col-md-2 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+		<div class="col-md-4 col-xs-12 ">
+			<h3>Contact Us</h3>
+			<ul class="contact-info">
+				<li
+				<li><i class="icon-phone"></i>Tel. : +62 21 898 0935 (Hunting)</li>
+				<li><i class="icon-phone"></i>Fax. : +62 21 898 0405</li>
+				<li><i class="icon-envelope"></i><a href="#">info@yoursite.com</a></li>
+				<li><i class="icon-globe"></i><a href="#">www.yoursite.com</a></li>
+			</ul>
+		</div>
+		<div class="col-md-4 col-xs-12">
 			<h3>Follow Us</h3>
 			<ul class="fh5co-social">
 				<li><a href="#"><i class="icon-twitter"></i></a></li>

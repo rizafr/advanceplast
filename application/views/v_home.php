@@ -7,8 +7,8 @@
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
-		   					<h2>Start Your Business With This Source</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
+		   					<h2>Coporate Vision</h2>
+		   					<p><a href="<?php echo base_url().'about#corporate-vision'?>" class="btn btn-primary btn-lg">Get started</a></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -17,8 +17,8 @@
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
-		   					<h2>Take Your Business To The Next Level</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
+		   					<h2>Product and Application</h2>
+		   					<p><a href="<?php echo base_url().'produk/1'?>" class="btn btn-primary btn-lg">Get started</a></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -27,8 +27,8 @@
 		   		<div class="container">
 		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
 		   				<div class="slider-text-inner">
-		   					<h2>We Think Different That Others Can't</h2>
-		   					<p><a href="#" class="btn btn-primary btn-lg">Get started</a></p>
+		   					<h2>Product Facility</h2>
+		   					<p><a href="<?php echo base_url().'produk/2'?>" class="btn btn-primary btn-lg">Get started</a></p>
 		   				</div>
 		   			</div>
 		   		</div>
@@ -77,19 +77,6 @@
 			</div>
 		</div>
 	</div>
-
-
-	<div class="fh5co-section-with-image">
-
-		<img src="<?php echo base_url().'theme/images/image_1.jpg'?>" alt="" class="img-responsive">
-		<div class="fh5co-box animate-box">
-			<h2>Berpikir Maju</h2>
-			<p>Kami selalu membangun aplikasi dengan teknologi terbaru.</p>
-			<p><a href="<?php echo base_url().'portfolio'?>" class="btn btn-primary btn-outline with-arrow">Get started <i class="icon-arrow-right"></i></a></p>
-		</div>
-
-	</div>
-
 
 
 	<div id="fh5co-blog" class="animate-box">

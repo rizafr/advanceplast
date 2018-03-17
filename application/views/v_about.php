@@ -27,35 +27,44 @@
 				<img src="<?php echo base_url().'assets/images/logo.png'?>" alt="Advanceplast" class="img-responsive">
 			</figure>
 		</div>
-		<div class="col-md-6">
-			<h3>History</h3>
-			<ul>
-				<li>Menjadi Perusahaan IT Profesional dengan solusi dan layanan yang optimal serta memiliki daya saing</li>
-				<li>Since 2006 expanded the business into Polymer Masterbatch & Compounds, PLANT 2</li>
-				<li>Subsidiary of PT Lautan Luas Tbk</li>
-			</ul>
-		</div>
-		<div class="col-md-6">
-			<h3>Corporate Vision</h3>
-			<quote>
-				“To be the well known Company in PVC Heat Stabilizer and Plastic Masterbatch within ASIA with the commitment to increase asset of the company strategically”
-			</quote>
-			<p>
-				Through :
-			</p>
-			<ul>
-				<li>Producing high quality product based on customer needs</li>
-				<li>Giving best services and cooperating with our valuable customers to achieve mutual benefits & partnership</li>
-				<li>Rewarding all employees’ efforts with our motto:</li>
-			</ul>
-			<quote>
-				“To be effective and efficient in all Company aspects”
-			</quote>
-		</div>
+		
+		
 	</div>
 </div>
 
-<div class="fh5co-team animate-box">
+<div class="fh5co-services animate-box fadeInUp animated" id="history">
+	<div class="container">
+	<h3>History</h3>
+	<ul>
+		<li>Menjadi Perusahaan IT Profesional dengan solusi dan layanan yang optimal serta memiliki daya saing</li>
+		<li>Since 2006 expanded the business into Polymer Masterbatch & Compounds, PLANT 2</li>
+		<li>Subsidiary of PT Lautan Luas Tbk</li>
+	</ul>
+</div>
+</div>
+
+<div class="fh5co-team animate-box" id="corporate-vision">
+	<div class="container">
+	<h3>Corporate Vision</h3>
+	<quote>
+		“To be the well known Company in PVC Heat Stabilizer and Plastic Masterbatch within ASIA with the commitment to increase asset of the company strategically”
+	</quote>
+	<p>
+		Through :
+	</p>
+	<ul>
+		<li>Producing high quality product based on customer needs</li>
+		<li>Giving best services and cooperating with our valuable customers to achieve mutual benefits & partnership</li>
+		<li>Rewarding all employees’ efforts with our motto:</li>
+	</ul>
+	<quote>
+		“To be effective and efficient in all Company aspects”
+	</quote>
+</div>
+</div>
+
+
+<div class="fh5co-team animate-box" id="our-distribution-network">
 	<div class="container">
 
 		<div class="row">
@@ -71,7 +80,7 @@
 	</div>
 </div>
 
-<div class="fh5co-services animate-box">
+<div class="fh5co-services animate-box" id="our-competitive-advantages">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
@@ -114,7 +123,7 @@
 	</div>
 </div>
 
-<div class="fh5co-team animate-box container">
+<div class="fh5co-team animate-box container" id="certifications">
 	<div class="row"><br/>
 		<center><h2>Certifications</h2></center>
 		<?php foreach ($data->result() as $row) :	?>

@@ -33,13 +33,13 @@ class M_portfolio extends CI_Model{
 
 
 	//Frontend
-	function get_portfolio(){
-		$hsl=$this->db->query("SELECT tbl_portfolio.*,DATE_FORMAT(port_tanggal,'%d %M %Y') AS tanggal FROM tbl_portfolio ORDER BY port_id DESC");
+	function get_portfolio($kategoriId){
+		$hsl=$this->db->query("SELECT tbl_portfolio.*,DATE_FORMAT(port_tanggal,'%d %M %Y') AS tanggal FROM tbl_portfolio where port_kategori='$kategoriId' ORDER BY port_id DESC");
 		return $hsl;
 	}
 
-	function get_portfolio_per_page($offset,$limit){
-		$hsl=$this->db->query("SELECT tbl_portfolio.*,DATE_FORMAT(port_tanggal,'%d %M %Y') AS tanggal FROM tbl_portfolio ORDER BY port_id DESC LIMIT $offset,$limit");
+	function get_portfolio_per_page($kategoriId, $offset,$limit){
+		$hsl=$this->db->query("SELECT tbl_portfolio.*,DATE_FORMAT(port_tanggal,'%d %M %Y') AS tanggal FROM tbl_portfolio where port_kategori='$kategoriId' ORDER BY port_id DESC LIMIT $offset,$limit");
 		return $hsl;
 	}
 }
